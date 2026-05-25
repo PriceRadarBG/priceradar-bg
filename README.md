@@ -24,12 +24,20 @@ PriceRadar BG е система за проследяване и анализ н
 
 ---
 
-## 🏗️ Архитектура (планирана)
+## 🏗️ Архитектура
 
-* Backend: FastAPI
-* Database: PostgreSQL
-* Frontend: React
+* Backend: FastAPI (`backend/`)
+* Database: PostgreSQL (планирано)
+* Frontend: React + TypeScript + Vite + Tailwind CSS (`frontend/`)
 * Data collection: Scraping / API
+
+### Frontend (UI основа)
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 ---
 
